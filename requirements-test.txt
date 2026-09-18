@@ -1,0 +1,5 @@
+# CPU tiny-model tests; Python 3.12 tested. Demo/action replay use the stdlib only.
+torch==2.6.0
+transformers==4.51.3
+peft==0.15.2
+accelerate==1.6.0

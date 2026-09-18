@@ -1,0 +1,30 @@
+# Local credentials and machine configuration
+.env
+.env.*
+!.env.example
+cluster.env.sh
+model-manifest.json
+*.pem
+*.key
+
+# Recreated from the hash-verified input bundle
+/data/
+/results/
+/tmp/
+/models/
+/cache/
+
+# Training outputs and local environments
+*.safetensors
+*.pt
+*.pth
+*.log
+__pycache__/
+*.py[cod]
+.venv*/
+*.egg-info/
+.DS_Store
+
+# Archive inclusion is explicit through artifacts/
+/dist/
+/build/
