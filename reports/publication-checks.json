@@ -1,0 +1,10 @@
+{
+  "status": "local_publication_checks_passed",
+  "date": "2026-09-18",
+  "unit_tests_passed": 89,
+  "public_replay_episodes": 384,
+  "demo": "recorded six-action successful trajectory replayed",
+  "credential_scan": "No recognized GitHub/API/private-key/AWS credential signatures in tracked text or archive members. Not a guarantee against every possible secret.",
+  "links": "All relative Markdown file links resolve locally.",
+  "scope": "No new 4B model training or inference; no server logs or model weights published."
+}

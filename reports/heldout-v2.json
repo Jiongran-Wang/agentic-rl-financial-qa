@@ -1,0 +1,831 @@
+{
+  "version": "retail-grpo-heldout-v2",
+  "primary": {
+    "status": "heldout_scored_pending_source_review",
+    "unique_questions": 64,
+    "repeats": 2,
+    "expected_episodes": 384,
+    "received_grades": 384,
+    "eligible_questions": 64,
+    "comparison_complete": true,
+    "success_rates": {
+      "sft": 0.453125,
+      "grpo": 0.5390625,
+      "iterative": 0.6640625
+    },
+    "deltas_percentage_points": {
+      "grpo_minus_sft": 8.59375,
+      "iterative_minus_sft": 21.09375,
+      "iterative_minus_grpo": 12.5
+    },
+    "per_repeat": {
+      "1": {
+        "status": "paired_heldout_scored_pending_source_review",
+        "expected_pairs": 64,
+        "eligible_pairs": 64,
+        "comparison_complete": true,
+        "success_rates": {
+          "sft": 0.46875,
+          "grpo": 0.546875,
+          "iterative": 0.671875
+        },
+        "comparisons": {
+          "grpo_minus_sft": {
+            "counts": {
+              "both_success": 29,
+              "both_fail": 28,
+              "target_win": 6,
+              "baseline_win": 1,
+              "missing_or_unscorable": 0
+            },
+            "delta_percentage_points": 7.8125
+          },
+          "iterative_minus_sft": {
+            "counts": {
+              "both_success": 30,
+              "both_fail": 21,
+              "target_win": 13,
+              "baseline_win": 0,
+              "missing_or_unscorable": 0
+            },
+            "delta_percentage_points": 20.3125
+          },
+          "iterative_minus_grpo": {
+            "counts": {
+              "both_success": 35,
+              "both_fail": 21,
+              "target_win": 8,
+              "baseline_win": 0,
+              "missing_or_unscorable": 0
+            },
+            "delta_percentage_points": 12.5
+          }
+        }
+      },
+      "2": {
+        "status": "paired_heldout_scored_pending_source_review",
+        "expected_pairs": 64,
+        "eligible_pairs": 64,
+        "comparison_complete": true,
+        "success_rates": {
+          "sft": 0.4375,
+          "grpo": 0.53125,
+          "iterative": 0.65625
+        },
+        "comparisons": {
+          "grpo_minus_sft": {
+            "counts": {
+              "both_success": 26,
+              "both_fail": 28,
+              "target_win": 8,
+              "baseline_win": 2,
+              "missing_or_unscorable": 0
+            },
+            "delta_percentage_points": 9.375
+          },
+          "iterative_minus_sft": {
+            "counts": {
+              "both_success": 27,
+              "both_fail": 21,
+              "target_win": 15,
+              "baseline_win": 1,
+              "missing_or_unscorable": 0
+            },
+            "delta_percentage_points": 21.875
+          },
+          "iterative_minus_grpo": {
+            "counts": {
+              "both_success": 33,
+              "both_fail": 21,
+              "target_win": 9,
+              "baseline_win": 1,
+              "missing_or_unscorable": 0
+            },
+            "delta_percentage_points": 12.5
+          }
+        }
+      }
+    },
+    "unit": "question; two repeats averaged before comparison",
+    "best_repeat_selection": false
+  },
+  "by_operation": {
+    "difference": {
+      "status": "heldout_scored_pending_source_review",
+      "unique_questions": 10,
+      "repeats": 2,
+      "expected_episodes": 60,
+      "received_grades": 60,
+      "eligible_questions": 10,
+      "comparison_complete": true,
+      "success_rates": {
+        "sft": 0.2,
+        "grpo": 0.25,
+        "iterative": 0.45
+      },
+      "deltas_percentage_points": {
+        "grpo_minus_sft": 4.999999999999999,
+        "iterative_minus_sft": 25.0,
+        "iterative_minus_grpo": 20.0
+      },
+      "per_repeat": {
+        "1": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 10,
+          "eligible_pairs": 10,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 0.2,
+            "grpo": 0.2,
+            "iterative": 0.4
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 2,
+                "both_fail": 8,
+                "target_win": 0,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 0.0
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 2,
+                "both_fail": 6,
+                "target_win": 2,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 20.0
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 2,
+                "both_fail": 6,
+                "target_win": 2,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 20.0
+            }
+          }
+        },
+        "2": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 10,
+          "eligible_pairs": 10,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 0.2,
+            "grpo": 0.3,
+            "iterative": 0.5
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 2,
+                "both_fail": 7,
+                "target_win": 1,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 10.0
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 2,
+                "both_fail": 5,
+                "target_win": 3,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 30.0
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 3,
+                "both_fail": 5,
+                "target_win": 2,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 20.0
+            }
+          }
+        }
+      },
+      "unit": "question; two repeats averaged before comparison",
+      "best_repeat_selection": false
+    },
+    "larger": {
+      "status": "heldout_scored_pending_source_review",
+      "unique_questions": 10,
+      "repeats": 2,
+      "expected_episodes": 60,
+      "received_grades": 60,
+      "eligible_questions": 10,
+      "comparison_complete": true,
+      "success_rates": {
+        "sft": 0.45,
+        "grpo": 0.55,
+        "iterative": 0.75
+      },
+      "deltas_percentage_points": {
+        "grpo_minus_sft": 10.000000000000004,
+        "iterative_minus_sft": 30.0,
+        "iterative_minus_grpo": 19.999999999999996
+      },
+      "per_repeat": {
+        "1": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 10,
+          "eligible_pairs": 10,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 0.5,
+            "grpo": 0.6,
+            "iterative": 0.8
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 4,
+                "both_fail": 3,
+                "target_win": 2,
+                "baseline_win": 1,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 10.0
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 5,
+                "both_fail": 2,
+                "target_win": 3,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 30.0
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 6,
+                "both_fail": 2,
+                "target_win": 2,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 20.0
+            }
+          }
+        },
+        "2": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 10,
+          "eligible_pairs": 10,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 0.4,
+            "grpo": 0.5,
+            "iterative": 0.7
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 2,
+                "both_fail": 3,
+                "target_win": 3,
+                "baseline_win": 2,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 10.0
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 3,
+                "both_fail": 2,
+                "target_win": 4,
+                "baseline_win": 1,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 30.0
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 4,
+                "both_fail": 2,
+                "target_win": 3,
+                "baseline_win": 1,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 20.0
+            }
+          }
+        }
+      },
+      "unit": "question; two repeats averaged before comparison",
+      "best_repeat_selection": false
+    },
+    "lookup": {
+      "status": "heldout_scored_pending_source_review",
+      "unique_questions": 20,
+      "repeats": 2,
+      "expected_episodes": 120,
+      "received_grades": 120,
+      "eligible_questions": 20,
+      "comparison_complete": true,
+      "success_rates": {
+        "sft": 0.65,
+        "grpo": 0.75,
+        "iterative": 0.825
+      },
+      "deltas_percentage_points": {
+        "grpo_minus_sft": 9.999999999999998,
+        "iterative_minus_sft": 17.499999999999993,
+        "iterative_minus_grpo": 7.499999999999996
+      },
+      "per_repeat": {
+        "1": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 20,
+          "eligible_pairs": 20,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 0.65,
+            "grpo": 0.75,
+            "iterative": 0.8
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 13,
+                "both_fail": 5,
+                "target_win": 2,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 10.0
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 13,
+                "both_fail": 4,
+                "target_win": 3,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 15.0
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 15,
+                "both_fail": 4,
+                "target_win": 1,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 5.0
+            }
+          }
+        },
+        "2": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 20,
+          "eligible_pairs": 20,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 0.65,
+            "grpo": 0.75,
+            "iterative": 0.85
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 13,
+                "both_fail": 5,
+                "target_win": 2,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 10.0
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 13,
+                "both_fail": 3,
+                "target_win": 4,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 20.0
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 15,
+                "both_fail": 3,
+                "target_win": 2,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 10.0
+            }
+          }
+        }
+      },
+      "unit": "question; two repeats averaged before comparison",
+      "best_repeat_selection": false
+    },
+    "ratio": {
+      "status": "heldout_scored_pending_source_review",
+      "unique_questions": 12,
+      "repeats": 2,
+      "expected_episodes": 72,
+      "received_grades": 72,
+      "eligible_questions": 12,
+      "comparison_complete": true,
+      "success_rates": {
+        "sft": 0.4583333333333333,
+        "grpo": 0.5833333333333334,
+        "iterative": 0.75
+      },
+      "deltas_percentage_points": {
+        "grpo_minus_sft": 12.500000000000005,
+        "iterative_minus_sft": 29.166666666666668,
+        "iterative_minus_grpo": 16.666666666666664
+      },
+      "per_repeat": {
+        "1": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 12,
+          "eligible_pairs": 12,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 0.5,
+            "grpo": 0.5833333333333334,
+            "iterative": 0.8333333333333334
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 6,
+                "both_fail": 5,
+                "target_win": 1,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 8.333333333333334
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 6,
+                "both_fail": 2,
+                "target_win": 4,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 33.333333333333336
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 7,
+                "both_fail": 2,
+                "target_win": 3,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 25.0
+            }
+          }
+        },
+        "2": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 12,
+          "eligible_pairs": 12,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 0.4166666666666667,
+            "grpo": 0.5833333333333334,
+            "iterative": 0.6666666666666666
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 5,
+                "both_fail": 5,
+                "target_win": 2,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 16.666666666666668
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 5,
+                "both_fail": 4,
+                "target_win": 3,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 25.0
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 7,
+                "both_fail": 4,
+                "target_win": 1,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 8.333333333333334
+            }
+          }
+        }
+      },
+      "unit": "question; two repeats averaged before comparison",
+      "best_repeat_selection": false
+    },
+    "select_then_lookup": {
+      "status": "heldout_scored_pending_source_review",
+      "unique_questions": 8,
+      "repeats": 2,
+      "expected_episodes": 48,
+      "received_grades": 48,
+      "eligible_questions": 8,
+      "comparison_complete": true,
+      "success_rates": {
+        "sft": 0.0,
+        "grpo": 0.0625,
+        "iterative": 0.125
+      },
+      "deltas_percentage_points": {
+        "grpo_minus_sft": 6.25,
+        "iterative_minus_sft": 12.5,
+        "iterative_minus_grpo": 6.25
+      },
+      "per_repeat": {
+        "1": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 8,
+          "eligible_pairs": 8,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 0.0,
+            "grpo": 0.125,
+            "iterative": 0.125
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 0,
+                "both_fail": 7,
+                "target_win": 1,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 12.5
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 0,
+                "both_fail": 7,
+                "target_win": 1,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 12.5
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 1,
+                "both_fail": 7,
+                "target_win": 0,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 0.0
+            }
+          }
+        },
+        "2": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 8,
+          "eligible_pairs": 8,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 0.0,
+            "grpo": 0.0,
+            "iterative": 0.125
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 0,
+                "both_fail": 8,
+                "target_win": 0,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 0.0
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 0,
+                "both_fail": 7,
+                "target_win": 1,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 12.5
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 0,
+                "both_fail": 7,
+                "target_win": 1,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 12.5
+            }
+          }
+        }
+      },
+      "unit": "question; two repeats averaged before comparison",
+      "best_repeat_selection": false
+    },
+    "unavailable_as_of": {
+      "status": "heldout_scored_pending_source_review",
+      "unique_questions": 4,
+      "repeats": 2,
+      "expected_episodes": 24,
+      "received_grades": 24,
+      "eligible_questions": 4,
+      "comparison_complete": true,
+      "success_rates": {
+        "sft": 1.0,
+        "grpo": 1.0,
+        "iterative": 1.0
+      },
+      "deltas_percentage_points": {
+        "grpo_minus_sft": 0.0,
+        "iterative_minus_sft": 0.0,
+        "iterative_minus_grpo": 0.0
+      },
+      "per_repeat": {
+        "1": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 4,
+          "eligible_pairs": 4,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 1.0,
+            "grpo": 1.0,
+            "iterative": 1.0
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 4,
+                "both_fail": 0,
+                "target_win": 0,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 0.0
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 4,
+                "both_fail": 0,
+                "target_win": 0,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 0.0
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 4,
+                "both_fail": 0,
+                "target_win": 0,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 0.0
+            }
+          }
+        },
+        "2": {
+          "status": "paired_heldout_scored_pending_source_review",
+          "expected_pairs": 4,
+          "eligible_pairs": 4,
+          "comparison_complete": true,
+          "success_rates": {
+            "sft": 1.0,
+            "grpo": 1.0,
+            "iterative": 1.0
+          },
+          "comparisons": {
+            "grpo_minus_sft": {
+              "counts": {
+                "both_success": 4,
+                "both_fail": 0,
+                "target_win": 0,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 0.0
+            },
+            "iterative_minus_sft": {
+              "counts": {
+                "both_success": 4,
+                "both_fail": 0,
+                "target_win": 0,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 0.0
+            },
+            "iterative_minus_grpo": {
+              "counts": {
+                "both_success": 4,
+                "both_fail": 0,
+                "target_win": 0,
+                "baseline_win": 0,
+                "missing_or_unscorable": 0
+              },
+              "delta_percentage_points": 0.0
+            }
+          }
+        }
+      },
+      "unit": "question; two repeats averaged before comparison",
+      "best_repeat_selection": false
+    }
+  },
+  "total_costs": {
+    "sft": {
+      "invalid_actions": 341,
+      "repeated_actions": 412,
+      "tool_calls": 951,
+      "model_calls": 1035,
+      "tokens": 8821482,
+      "prompt_tokens": 8743341,
+      "completion_tokens": 78141
+    },
+    "grpo": {
+      "invalid_actions": 266,
+      "repeated_actions": 343,
+      "tool_calls": 887,
+      "model_calls": 978,
+      "tokens": 8791191,
+      "prompt_tokens": 8731215,
+      "completion_tokens": 59976
+    },
+    "iterative": {
+      "invalid_actions": 153,
+      "repeated_actions": 195,
+      "tool_calls": 743,
+      "model_calls": 846,
+      "tokens": 7804391,
+      "prompt_tokens": 7753671,
+      "completion_tokens": 50720
+    }
+  },
+  "reserved_question_attempts": 384,
+  "reserved_model_calls": 2859,
+  "limitations": "64 precommitted questions across four new project companies and four annual reports. Same-author source review; pretraining exposure unknown; small templated benchmark. Two repeats are not independent questions or training seeds.",
+  "audit": {
+    "job_id": "3164971",
+    "archive_sha256": "5474971056abc27f363d648d2fd46180b2bbd137269e7162a3a92d887b0949ee",
+    "released_file_hashes_verified": 37,
+    "episodes_replayed_by_frozen_scorer": 384,
+    "model_responses_verified": 2859,
+    "cluster_tests_passed": 9,
+    "infrastructure_errors": 0,
+    "collection_minutes": 261.5105808243155,
+    "repeat_stability": {
+      "sft": {
+        "same_final": 57,
+        "same_raw_sequence": 46
+      },
+      "grpo": {
+        "same_final": 55,
+        "same_raw_sequence": 44
+      },
+      "iterative": {
+        "same_final": 53,
+        "same_raw_sequence": 51
+      }
+    }
+  },
+  "source_review": {
+    "source_figures_checked": 20,
+    "references_checked": 64,
+    "grade_changes": 0,
+    "reviewer": "Same-author assistant; not independent human",
+    "strict_proof_note": "Two correct-answer attempts fail exact proof-multiset matching because they include an extra valid calculation; scores were not changed."
+  }
+}

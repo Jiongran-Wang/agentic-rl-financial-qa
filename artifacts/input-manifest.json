@@ -1,0 +1,31 @@
+{
+  "archive": "experiment-inputs.tar.gz",
+  "sha256": "20c0571054b8d4b4aa0c61c2ca2b81f6000bab4fecd49dd9bdc65b3b7828b5dc",
+  "file_hashes": {
+    "data/retail_fresh_v1/sources.json": "014c4ae493edb9e0e93eb66a0ab8ac2a2b2d497f6181cba258ae0d42556091fc",
+    "data/retail_grpo_heldout_v2/corpus.json": "2a5229045b7fb9ce357c3da8c8d8700ba118485b87be1b443e6386516304bacd",
+    "data/retail_grpo_heldout_v2/public.tasks.jsonl": "e241f5f41d35fc4443c20f81e2737302a8f24008e207774d2569763272deed1d",
+    "data/retail_grpo_heldout_v2/release.json": "dd223907ad13ac4d301051481d7b7b9ada4b2229e7b61ca1dd769a00a9187464",
+    "data/retail_grpo_iter_v1/corpus.json": "6a2014e66d8f072d9cbb070a56c5c9d5f529629ccb906e2312c7f4a8df4b7fae",
+    "data/retail_grpo_iter_v1/development/corpus.json": "685b1a4a6ebd25747c68b71a412801482b23d5409d951f4498c2c3add89e5f0e",
+    "data/retail_grpo_iter_v1/development/public.tasks.jsonl": "de969657b802dd7a091b8da7769cb046e3cb2f7276f0d13d1e2b1686b5459ee4",
+    "data/retail_grpo_iter_v1/development/scorer_only/equivalent_cells.json": "76c584c605899ca30a779462bdb24b3a79f74ee69e4ee0696b1e01f7806e3956",
+    "data/retail_grpo_iter_v1/development/scorer_only/references.jsonl": "b6ac6b1d20fdb9224fbf73a421bb6d96a74a8c2f55505b2b66ea7f146fab3c87",
+    "data/retail_grpo_iter_v1/public.tasks.jsonl": "959dca1b6798b79a0a69af0346ebebd3f180e337c461cb5f131c78dc02fec5d1",
+    "data/retail_grpo_iter_v1/release.json": "8b6c19b42645cb03a6c5359c4c86c111c9a9e95113e73234c37763bf238ddb40",
+    "data/retail_grpo_iter_v1/trainer_only/equivalent_cells.json": "a7abd6a01f4af732609da1248c5ee89616c98b6b226008dc7ec982a8d44ded5d",
+    "data/retail_grpo_iter_v1/trainer_only/references.jsonl": "cea523ebe5406ef42e5fe2e3760746a3a31ca7c2fd056ef8d18b5cf2558bf4b1",
+    "data/retail_pilot/sources.json": "b090df12f68188732bb34690a45b9aa6851aa5f86de7f69df799c6657b0635be",
+    "data/retail_policy_eval_v1/sources.json": "649152b06d02efda6f894c34c9c0684acb3d87141868b5d38fc37893ae11e471",
+    "data/retail_policy_eval_v2/construction_plan.json": "d11a4f880c5efda0fe64ce3bc620f12c7181f81f2ad5eab9fcf96e445308a96c",
+    "data/retail_policy_eval_v2/facts.candidates.jsonl": "7a43457a598d1d515a74c1eac8cad0ff398c6a2c9d1c247a37f2de809c005925",
+    "data/retail_policy_eval_v2/manifest.json": "de92f41323baa97b41deff02792933d3d2121fb95a110b7c0532684ef757ccbf",
+    "data/retail_policy_eval_v2/private/equivalent_cells.json": "49eeac90feca0ddcef29be18e0e20e62eb0fa391cc58eb5fcdbb564803beacd8",
+    "data/retail_policy_eval_v2/private/references.jsonl": "b5ce96138fc2fc155debdd826581c17dbb785949db313f86479b0592adde7d91",
+    "data/retail_policy_eval_v2/private/source_audit.json": "795c64f3b9e255aa20f7bdf05ee08258438e2a2ef94774727ea2125dd448fc09",
+    "data/retail_policy_eval_v2/sources.json": "7a948f119a50a721898b99d9bda40fafae59a5c59f222b0da594414e272e7e80",
+    "data/retail_sft_pilot_v1/release.json": "a44f203f55c165e75f3a2d1fa1010f9cc0bf207b2e25e5a70ebc36c92ba39f51",
+    "results/retail_reward_v2_sft_v1/action_samples.train.jsonl": "aa17e3643b3815b781b8fc6fc2315d24cecb9c0541a55d6b1cded2bd0fcdc46a",
+    "results/retail_reward_v2_sft_v1/validation.json": "e930469f5e096cf6e7087b1ff44f83c452efb30e6f158d269bde379e13937292"
+  }
+}

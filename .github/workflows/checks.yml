@@ -1,0 +1,20 @@
+name: Protocol checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify inputs and run recorded demo
+        run: |
+          python scripts/unpack_inputs.py
+          python scripts/demo.py
+      - name: Test policy and evaluation contracts
+        run: |
+          python -m unittest discover -s tests -p 'test_retail_grpo_heldout_*v2.py' -v
+          python -m unittest discover -s tests -p 'test_retail_grpo_iter_v1.py' -v
